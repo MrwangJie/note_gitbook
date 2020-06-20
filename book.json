@@ -1,0 +1,31 @@
+{
+    "title": "笔记整理",
+    "author": "海猫",
+    "description": "笔记整理",
+    "language": "zh-hans",
+    "root": ".",
+    "styles": {
+    },
+    "plugins": [ 
+        "back-to-top-button",
+        "pageview-count",
+        "tbfed-pagefooter",
+        "hide-element"
+    ],
+    "pluginsConfig": {
+        "tbfed-pagefooter": {
+            "copyright":"Copyright &copy 2020",
+            "modify_label": "该文章修订时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "page-toc-button": {
+            "maxTocDepth": 2,
+            "minTocSize": 2
+        },
+        "hide-element": {
+            "elements": [".gitbook-link"]
+        }
+    }
+    
+    
+}
